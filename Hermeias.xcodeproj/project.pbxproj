@@ -7,149 +7,159 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8F3C29328FCD751003383D2 /* ShippyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F3C29228FCD751003383D2 /* ShippyApp.swift */; };
-		F8F3C29528FCD751003383D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F3C29428FCD751003383D2 /* ContentView.swift */; };
-		F8F3C29728FCD755003383D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F3C29628FCD755003383D2 /* Assets.xcassets */; };
-		F8F3C29A28FCD755003383D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F3C29928FCD755003383D2 /* Preview Assets.xcassets */; };
-		F8F3C2A328FCD8DB003383D2 /* DestinationMenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F3C2A228FCD8DB003383D2 /* DestinationMenuPage.swift */; };
-		F8F3C2A528FCEE6A003383D2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F8F3C2A428FCEE6A003383D2 /* Podfile */; };
-		F8F3C2A728FCF20E003383D2 /* MapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F3C2A628FCF20E003383D2 /* MapPage.swift */; };
+		74A291EFB13E19005AE043B3 /* Pods_Hermeias.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768F59D91FF1F6AB4620C101 /* Pods_Hermeias.framework */; };
+		F8603FE8290209BF00949266 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8603FE5290209BF00949266 /* MapView.swift */; };
+		F8603FE9290209BF00949266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8603FE6290209BF00949266 /* ViewController.swift */; };
+		F8603FEA290209BF00949266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8603FE7290209BF00949266 /* Main.storyboard */; };
+		F899CEA228FDEF170058EEB2 /* DestinationMenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F899CEA128FDEF170058EEB2 /* DestinationMenuPage.swift */; };
+		F899CEA428FDEF300058EEB2 /* MapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F899CEA328FDEF300058EEB2 /* MapPage.swift */; };
+		F8E3338C28FDEBC00054A960 /* HermeiasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E3338B28FDEBC00054A960 /* HermeiasApp.swift */; };
+		F8E3338E28FDEBC00054A960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E3338D28FDEBC00054A960 /* ContentView.swift */; };
+		F8E3339028FDEBC10054A960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E3338F28FDEBC10054A960 /* Assets.xcassets */; };
+		F8E3339328FDEBC10054A960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E3339228FDEBC10054A960 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		26DA01EF018845DBC873A070 /* Pods-Shippy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shippy.debug.xcconfig"; path = "Target Support Files/Pods-Shippy/Pods-Shippy.debug.xcconfig"; sourceTree = "<group>"; };
-		6EF3F9A7852F8D204BE8F896 /* Pods-Shippy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shippy.release.xcconfig"; path = "Target Support Files/Pods-Shippy/Pods-Shippy.release.xcconfig"; sourceTree = "<group>"; };
-		F8F3C28F28FCD751003383D2 /* Shippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8F3C29228FCD751003383D2 /* ShippyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippyApp.swift; sourceTree = "<group>"; };
-		F8F3C29428FCD751003383D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F8F3C29628FCD755003383D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F8F3C29928FCD755003383D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F8F3C2A228FCD8DB003383D2 /* DestinationMenuPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationMenuPage.swift; sourceTree = "<group>"; };
-		F8F3C2A428FCEE6A003383D2 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		F8F3C2A628FCF20E003383D2 /* MapPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPage.swift; sourceTree = "<group>"; };
+		65402B5141B1CE0881DB24F2 /* Pods-Hermeias.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hermeias.release.xcconfig"; path = "Target Support Files/Pods-Hermeias/Pods-Hermeias.release.xcconfig"; sourceTree = "<group>"; };
+		768F59D91FF1F6AB4620C101 /* Pods_Hermeias.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hermeias.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42052656EC051AE1FF404D7 /* Pods-Hermeias.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hermeias.debug.xcconfig"; path = "Target Support Files/Pods-Hermeias/Pods-Hermeias.debug.xcconfig"; sourceTree = "<group>"; };
+		F8603FE5290209BF00949266 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F8603FE6290209BF00949266 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8603FE7290209BF00949266 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F899CEA128FDEF170058EEB2 /* DestinationMenuPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationMenuPage.swift; sourceTree = "<group>"; };
+		F899CEA328FDEF300058EEB2 /* MapPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapPage.swift; path = Hermeias/MapPage/MapPage.swift; sourceTree = SOURCE_ROOT; };
+		F8E3338828FDEBC00054A960 /* Hermeias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hermeias.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E3338B28FDEBC00054A960 /* HermeiasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermeiasApp.swift; sourceTree = "<group>"; };
+		F8E3338D28FDEBC00054A960 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8E3338F28FDEBC10054A960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8E3339228FDEBC10054A960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F8F3C28C28FCD751003383D2 /* Frameworks */ = {
+		F8E3338528FDEBC00054A960 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74A291EFB13E19005AE043B3 /* Pods_Hermeias.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54E1563E9568BFD0F5A1B9C1 /* Pods */ = {
+		01A653430D8695197155E3DF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				26DA01EF018845DBC873A070 /* Pods-Shippy.debug.xcconfig */,
-				6EF3F9A7852F8D204BE8F896 /* Pods-Shippy.release.xcconfig */,
+				F42052656EC051AE1FF404D7 /* Pods-Hermeias.debug.xcconfig */,
+				65402B5141B1CE0881DB24F2 /* Pods-Hermeias.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		8B17809423668BC860B6D4A3 /* Frameworks */ = {
+		734024806A0E83FC79954AD3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				768F59D91FF1F6AB4620C101 /* Pods_Hermeias.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F8F3C28628FCD751003383D2 = {
+		F899CE9F28FDEE8A0058EEB2 /* MapPage */ = {
 			isa = PBXGroup;
 			children = (
-				F8F3C2A428FCEE6A003383D2 /* Podfile */,
-				F8F3C29128FCD751003383D2 /* Shippy */,
-				F8F3C29028FCD751003383D2 /* Products */,
-				54E1563E9568BFD0F5A1B9C1 /* Pods */,
-				8B17809423668BC860B6D4A3 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		F8F3C29028FCD751003383D2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F8F3C28F28FCD751003383D2 /* Shippy.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F8F3C29128FCD751003383D2 /* Shippy */ = {
-			isa = PBXGroup;
-			children = (
-				F8F3C2A128FCD8AF003383D2 /* DestinationMenuPage */,
-				F8F3C2A028FCD8A3003383D2 /* MapPage */,
-				F8F3C29228FCD751003383D2 /* ShippyApp.swift */,
-				F8F3C29428FCD751003383D2 /* ContentView.swift */,
-				F8F3C29628FCD755003383D2 /* Assets.xcassets */,
-				F8F3C29828FCD755003383D2 /* Preview Content */,
-			);
-			path = Shippy;
-			sourceTree = "<group>";
-		};
-		F8F3C29828FCD755003383D2 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				F8F3C29928FCD755003383D2 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		F8F3C2A028FCD8A3003383D2 /* MapPage */ = {
-			isa = PBXGroup;
-			children = (
-				F8F3C2A628FCF20E003383D2 /* MapPage.swift */,
+				F8603FE7290209BF00949266 /* Main.storyboard */,
+				F8603FE5290209BF00949266 /* MapView.swift */,
+				F8603FE6290209BF00949266 /* ViewController.swift */,
+				F899CEA328FDEF300058EEB2 /* MapPage.swift */,
 			);
 			path = MapPage;
 			sourceTree = "<group>";
 		};
-		F8F3C2A128FCD8AF003383D2 /* DestinationMenuPage */ = {
+		F899CEA028FDEE960058EEB2 /* DestinationMenuPage */ = {
 			isa = PBXGroup;
 			children = (
-				F8F3C2A228FCD8DB003383D2 /* DestinationMenuPage.swift */,
+				F899CEA128FDEF170058EEB2 /* DestinationMenuPage.swift */,
 			);
 			path = DestinationMenuPage;
+			sourceTree = "<group>";
+		};
+		F8E3337F28FDEBC00054A960 = {
+			isa = PBXGroup;
+			children = (
+				F8E3338A28FDEBC00054A960 /* Hermeias */,
+				F8E3338928FDEBC00054A960 /* Products */,
+				01A653430D8695197155E3DF /* Pods */,
+				734024806A0E83FC79954AD3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F8E3338928FDEBC00054A960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8E3338828FDEBC00054A960 /* Hermeias.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8E3338A28FDEBC00054A960 /* Hermeias */ = {
+			isa = PBXGroup;
+			children = (
+				F899CEA028FDEE960058EEB2 /* DestinationMenuPage */,
+				F899CE9F28FDEE8A0058EEB2 /* MapPage */,
+				F8E3338B28FDEBC00054A960 /* HermeiasApp.swift */,
+				F8E3338D28FDEBC00054A960 /* ContentView.swift */,
+				F8E3338F28FDEBC10054A960 /* Assets.xcassets */,
+				F8E3339128FDEBC10054A960 /* Preview Content */,
+			);
+			path = Hermeias;
+			sourceTree = "<group>";
+		};
+		F8E3339128FDEBC10054A960 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8E3339228FDEBC10054A960 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8F3C28E28FCD751003383D2 /* Shippy */ = {
+		F8E3338728FDEBC00054A960 /* Hermeias */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8F3C29D28FCD755003383D2 /* Build configuration list for PBXNativeTarget "Shippy" */;
+			buildConfigurationList = F8E3339628FDEBC10054A960 /* Build configuration list for PBXNativeTarget "Hermeias" */;
 			buildPhases = (
-				F3346A7704FF3CB4AC137EDC /* [CP] Check Pods Manifest.lock */,
-				F8F3C28B28FCD751003383D2 /* Sources */,
-				F8F3C28C28FCD751003383D2 /* Frameworks */,
-				F8F3C28D28FCD751003383D2 /* Resources */,
-				4A01BF7802FFA0A2C3000D7E /* [CP] Copy Pods Resources */,
+				D8A5EEA1323A434F22E656DB /* [CP] Check Pods Manifest.lock */,
+				F8E3338428FDEBC00054A960 /* Sources */,
+				F8E3338528FDEBC00054A960 /* Frameworks */,
+				F8E3338628FDEBC00054A960 /* Resources */,
+				68B3924554C0EDFD35A82F8A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Shippy;
-			productName = Shippy;
-			productReference = F8F3C28F28FCD751003383D2 /* Shippy.app */;
+			name = Hermeias;
+			productName = Hermeias;
+			productReference = F8E3338828FDEBC00054A960 /* Hermeias.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F8F3C28728FCD751003383D2 /* Project object */ = {
+		F8E3338028FDEBC00054A960 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					F8F3C28E28FCD751003383D2 = {
+					F8E3338728FDEBC00054A960 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
-			buildConfigurationList = F8F3C28A28FCD751003383D2 /* Build configuration list for PBXProject "Shippy" */;
+			buildConfigurationList = F8E3338328FDEBC00054A960 /* Build configuration list for PBXProject "Hermeias" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,48 +167,48 @@
 				en,
 				Base,
 			);
-			mainGroup = F8F3C28628FCD751003383D2;
-			productRefGroup = F8F3C29028FCD751003383D2 /* Products */;
+			mainGroup = F8E3337F28FDEBC00054A960;
+			productRefGroup = F8E3338928FDEBC00054A960 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8F3C28E28FCD751003383D2 /* Shippy */,
+				F8E3338728FDEBC00054A960 /* Hermeias */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F8F3C28D28FCD751003383D2 /* Resources */ = {
+		F8E3338628FDEBC00054A960 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8F3C2A528FCEE6A003383D2 /* Podfile in Resources */,
-				F8F3C29A28FCD755003383D2 /* Preview Assets.xcassets in Resources */,
-				F8F3C29728FCD755003383D2 /* Assets.xcassets in Resources */,
+				F8603FEA290209BF00949266 /* Main.storyboard in Resources */,
+				F8E3339328FDEBC10054A960 /* Preview Assets.xcassets in Resources */,
+				F8E3339028FDEBC10054A960 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4A01BF7802FFA0A2C3000D7E /* [CP] Copy Pods Resources */ = {
+		68B3924554C0EDFD35A82F8A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Shippy/Pods-Shippy-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Hermeias/Pods-Hermeias-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Shippy/Pods-Shippy-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Hermeias/Pods-Hermeias-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shippy/Pods-Shippy-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hermeias/Pods-Hermeias-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F3346A7704FF3CB4AC137EDC /* [CP] Check Pods Manifest.lock */ = {
+		D8A5EEA1323A434F22E656DB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -213,7 +223,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Shippy-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Hermeias-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -223,21 +233,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F8F3C28B28FCD751003383D2 /* Sources */ = {
+		F8E3338428FDEBC00054A960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8F3C29528FCD751003383D2 /* ContentView.swift in Sources */,
-				F8F3C29328FCD751003383D2 /* ShippyApp.swift in Sources */,
-				F8F3C2A328FCD8DB003383D2 /* DestinationMenuPage.swift in Sources */,
-				F8F3C2A728FCF20E003383D2 /* MapPage.swift in Sources */,
+				F8603FE9290209BF00949266 /* ViewController.swift in Sources */,
+				F8E3338E28FDEBC00054A960 /* ContentView.swift in Sources */,
+				F8E3338C28FDEBC00054A960 /* HermeiasApp.swift in Sources */,
+				F8603FE8290209BF00949266 /* MapView.swift in Sources */,
+				F899CEA228FDEF170058EEB2 /* DestinationMenuPage.swift in Sources */,
+				F899CEA428FDEF300058EEB2 /* MapPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F8F3C29B28FCD755003383D2 /* Debug */ = {
+		F8E3339428FDEBC10054A960 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,7 +309,7 @@
 			};
 			name = Debug;
 		};
-		F8F3C29C28FCD755003383D2 /* Release */ = {
+		F8E3339528FDEBC10054A960 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -351,15 +363,15 @@
 			};
 			name = Release;
 		};
-		F8F3C29E28FCD755003383D2 /* Debug */ = {
+		F8E3339728FDEBC10054A960 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26DA01EF018845DBC873A070 /* Pods-Shippy.debug.xcconfig */;
+			baseConfigurationReference = F42052656EC051AE1FF404D7 /* Pods-Hermeias.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Shippy/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Hermeias/Preview Content\"";
 				DEVELOPMENT_TEAM = F56N382DAB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -373,7 +385,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Parham.Shippy;
+				PRODUCT_BUNDLE_IDENTIFIER = Parham.Hermeias;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -381,15 +393,15 @@
 			};
 			name = Debug;
 		};
-		F8F3C29F28FCD755003383D2 /* Release */ = {
+		F8E3339828FDEBC10054A960 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EF3F9A7852F8D204BE8F896 /* Pods-Shippy.release.xcconfig */;
+			baseConfigurationReference = 65402B5141B1CE0881DB24F2 /* Pods-Hermeias.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Shippy/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Hermeias/Preview Content\"";
 				DEVELOPMENT_TEAM = F56N382DAB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -403,7 +415,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Parham.Shippy;
+				PRODUCT_BUNDLE_IDENTIFIER = Parham.Hermeias;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -414,25 +426,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8F3C28A28FCD751003383D2 /* Build configuration list for PBXProject "Shippy" */ = {
+		F8E3338328FDEBC00054A960 /* Build configuration list for PBXProject "Hermeias" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8F3C29B28FCD755003383D2 /* Debug */,
-				F8F3C29C28FCD755003383D2 /* Release */,
+				F8E3339428FDEBC10054A960 /* Debug */,
+				F8E3339528FDEBC10054A960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8F3C29D28FCD755003383D2 /* Build configuration list for PBXNativeTarget "Shippy" */ = {
+		F8E3339628FDEBC10054A960 /* Build configuration list for PBXNativeTarget "Hermeias" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8F3C29E28FCD755003383D2 /* Debug */,
-				F8F3C29F28FCD755003383D2 /* Release */,
+				F8E3339728FDEBC10054A960 /* Debug */,
+				F8E3339828FDEBC10054A960 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F8F3C28728FCD751003383D2 /* Project object */;
+	rootObject = F8E3338028FDEBC00054A960 /* Project object */;
 }

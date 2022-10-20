@@ -1,14 +1,14 @@
 //
-//  ShippyApp.swift
-//  Shippy
+//  HermeiasApp.swift
+//  Hermeias
 //
-//  Created by Parham Shagerdmootab on 2022-10-16.
+//  Created by Parham Shagerdmootab on 2022-10-17.
 //
 
 import SwiftUI
 
 @main
-struct ShippyApp: App {
+struct HermeiasApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

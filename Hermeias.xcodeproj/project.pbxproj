@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		74A291EFB13E19005AE043B3 /* Pods_Hermeias.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768F59D91FF1F6AB4620C101 /* Pods_Hermeias.framework */; };
+		F8603FE8290209BF00949266 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8603FE5290209BF00949266 /* MapView.swift */; };
+		F8603FE9290209BF00949266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8603FE6290209BF00949266 /* ViewController.swift */; };
+		F8603FEA290209BF00949266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8603FE7290209BF00949266 /* Main.storyboard */; };
 		F899CEA228FDEF170058EEB2 /* DestinationMenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F899CEA128FDEF170058EEB2 /* DestinationMenuPage.swift */; };
 		F899CEA428FDEF300058EEB2 /* MapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F899CEA328FDEF300058EEB2 /* MapPage.swift */; };
 		F8E3338C28FDEBC00054A960 /* HermeiasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E3338B28FDEBC00054A960 /* HermeiasApp.swift */; };
@@ -20,6 +23,9 @@
 		65402B5141B1CE0881DB24F2 /* Pods-Hermeias.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hermeias.release.xcconfig"; path = "Target Support Files/Pods-Hermeias/Pods-Hermeias.release.xcconfig"; sourceTree = "<group>"; };
 		768F59D91FF1F6AB4620C101 /* Pods_Hermeias.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hermeias.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42052656EC051AE1FF404D7 /* Pods-Hermeias.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hermeias.debug.xcconfig"; path = "Target Support Files/Pods-Hermeias/Pods-Hermeias.debug.xcconfig"; sourceTree = "<group>"; };
+		F8603FE5290209BF00949266 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F8603FE6290209BF00949266 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8603FE7290209BF00949266 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F899CEA128FDEF170058EEB2 /* DestinationMenuPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationMenuPage.swift; sourceTree = "<group>"; };
 		F899CEA328FDEF300058EEB2 /* MapPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapPage.swift; path = Hermeias/MapPage/MapPage.swift; sourceTree = SOURCE_ROOT; };
 		F8E3338828FDEBC00054A960 /* Hermeias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hermeias.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,7 +53,6 @@
 				F42052656EC051AE1FF404D7 /* Pods-Hermeias.debug.xcconfig */,
 				65402B5141B1CE0881DB24F2 /* Pods-Hermeias.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -62,6 +67,9 @@
 		F899CE9F28FDEE8A0058EEB2 /* MapPage */ = {
 			isa = PBXGroup;
 			children = (
+				F8603FE7290209BF00949266 /* Main.storyboard */,
+				F8603FE5290209BF00949266 /* MapView.swift */,
+				F8603FE6290209BF00949266 /* ViewController.swift */,
 				F899CEA328FDEF300058EEB2 /* MapPage.swift */,
 			);
 			path = MapPage;
@@ -174,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8603FEA290209BF00949266 /* Main.storyboard in Resources */,
 				F8E3339328FDEBC10054A960 /* Preview Assets.xcassets in Resources */,
 				F8E3339028FDEBC10054A960 /* Assets.xcassets in Resources */,
 			);
@@ -228,8 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8603FE9290209BF00949266 /* ViewController.swift in Sources */,
 				F8E3338E28FDEBC00054A960 /* ContentView.swift in Sources */,
 				F8E3338C28FDEBC00054A960 /* HermeiasApp.swift in Sources */,
+				F8603FE8290209BF00949266 /* MapView.swift in Sources */,
 				F899CEA228FDEF170058EEB2 /* DestinationMenuPage.swift in Sources */,
 				F899CEA428FDEF300058EEB2 /* MapPage.swift in Sources */,
 			);

@@ -8,11 +8,58 @@
 
 import SwiftUI
 
+
 struct MapPage: View {
     
 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            ZStack {
+                MapStoryboard()
+                VStack {
+                    Spacer()
+                        .frame(height: 450)
+                    HStack {
+                        Spacer()
+                        HStack{
+                            Image(systemName: "location.fill")
+                                .resizable()
+                                .frame(width: 30.0, height: 30.0)
+                                .background(Color.white)
+                                .clipShape(Circle())
+                                
+                                
+                            
+                        }
+                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                    }
+                }
+            }
+            HStack{
+                VStack{
+                    Image(systemName: "bookmark.fill")
+                        .resizable()
+                        .frame(width: 25.0, height: 30.0)
+                        
+                    Text("Save")
+                }
+                .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                
+                Spacer()
+                    .frame(width: 100.0)
+                
+                VStack{
+                    Image(systemName: "plus.circle.fill")
+                        .resizable()
+                        .frame(width: 30.0, height: 30.0)
+                        
+                    Text("New")
+                }
+                .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            }
+        }
+        
     }
     
 }
@@ -22,3 +69,4 @@ struct MapPage_Previews: PreviewProvider {
         MapPage()
     }
 }
+

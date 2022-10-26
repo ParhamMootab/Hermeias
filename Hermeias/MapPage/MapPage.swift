@@ -10,12 +10,12 @@ import SwiftUI
 
 
 struct MapPage: View {
+    @ObservedObject var routeManager: RouteManager
     
-
     var body: some View {
         
         VStack {
-            ZStack {
+            ZStack { 
                 MapStoryboard()
                 VStack {
                     Spacer()
@@ -28,9 +28,7 @@ struct MapPage: View {
                                 .frame(width: 30.0, height: 30.0)
                                 .background(Color.white)
                                 .clipShape(Circle())
-                                
-                                
-                            
+ 
                         }
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                     }
@@ -53,20 +51,22 @@ struct MapPage: View {
                     Image(systemName: "plus.circle.fill")
                         .resizable()
                         .frame(width: 30.0, height: 30.0)
-                        
-                    Text("New")
+                    Button {
+                        print(routeManager.sendRequest())
+                    } label: {
+                        Text("New")
+                    }
+                    
                 }
                 .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             }
         }
-        
     }
-    
 }
 
 struct MapPage_Previews: PreviewProvider {
     static var previews: some View {
-        MapPage()
+        MapPage(routeManager: RouteManager())
     }
 }
 

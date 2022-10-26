@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var routeManager: RouteManager
     var body: some View {
-        MapPage()
+        MapPage(routeManager: routeManager)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(routeManager: RouteManager())
     }
 }

@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		74A291EFB13E19005AE043B3 /* Pods_Hermeias.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768F59D91FF1F6AB4620C101 /* Pods_Hermeias.framework */; };
+		F816CFB6290347EF00F17CAA /* PlaceInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F816CFB3290347EF00F17CAA /* PlaceInputView.swift */; };
+		F81F73642905FBB500BCA6ED /* RouteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81F73632905FBB500BCA6ED /* RouteManager.swift */; };
 		F8603FE8290209BF00949266 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8603FE5290209BF00949266 /* MapView.swift */; };
 		F8603FE9290209BF00949266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8603FE6290209BF00949266 /* ViewController.swift */; };
 		F8603FEA290209BF00949266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8603FE7290209BF00949266 /* Main.storyboard */; };
+		F8603FF0290212ED00949266 /* RouteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8603FEF290212ED00949266 /* RouteModel.swift */; };
 		F899CEA228FDEF170058EEB2 /* DestinationMenuPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F899CEA128FDEF170058EEB2 /* DestinationMenuPage.swift */; };
 		F899CEA428FDEF300058EEB2 /* MapPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F899CEA328FDEF300058EEB2 /* MapPage.swift */; };
 		F8E3338C28FDEBC00054A960 /* HermeiasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E3338B28FDEBC00054A960 /* HermeiasApp.swift */; };
@@ -23,9 +26,12 @@
 		65402B5141B1CE0881DB24F2 /* Pods-Hermeias.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hermeias.release.xcconfig"; path = "Target Support Files/Pods-Hermeias/Pods-Hermeias.release.xcconfig"; sourceTree = "<group>"; };
 		768F59D91FF1F6AB4620C101 /* Pods_Hermeias.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hermeias.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42052656EC051AE1FF404D7 /* Pods-Hermeias.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hermeias.debug.xcconfig"; path = "Target Support Files/Pods-Hermeias/Pods-Hermeias.debug.xcconfig"; sourceTree = "<group>"; };
+		F816CFB3290347EF00F17CAA /* PlaceInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceInputView.swift; sourceTree = "<group>"; };
+		F81F73632905FBB500BCA6ED /* RouteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteManager.swift; sourceTree = "<group>"; };
 		F8603FE5290209BF00949266 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		F8603FE6290209BF00949266 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8603FE7290209BF00949266 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F8603FEF290212ED00949266 /* RouteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteModel.swift; sourceTree = "<group>"; };
 		F899CEA128FDEF170058EEB2 /* DestinationMenuPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationMenuPage.swift; sourceTree = "<group>"; };
 		F899CEA328FDEF300058EEB2 /* MapPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapPage.swift; path = Hermeias/MapPage/MapPage.swift; sourceTree = SOURCE_ROOT; };
 		F8E3338828FDEBC00054A960 /* Hermeias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hermeias.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,10 +70,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F8603FEB29020DF700949266 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F81F73632905FBB500BCA6ED /* RouteManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F8603FEE290212E000949266 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8603FEF290212ED00949266 /* RouteModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F899CE9F28FDEE8A0058EEB2 /* MapPage */ = {
 			isa = PBXGroup;
 			children = (
-				F8603FE7290209BF00949266 /* Main.storyboard */,
 				F8603FE5290209BF00949266 /* MapView.swift */,
 				F8603FE6290209BF00949266 /* ViewController.swift */,
 				F899CEA328FDEF300058EEB2 /* MapPage.swift */,
@@ -78,6 +99,7 @@
 		F899CEA028FDEE960058EEB2 /* DestinationMenuPage */ = {
 			isa = PBXGroup;
 			children = (
+				F816CFB3290347EF00F17CAA /* PlaceInputView.swift */,
 				F899CEA128FDEF170058EEB2 /* DestinationMenuPage.swift */,
 			);
 			path = DestinationMenuPage;
@@ -104,8 +126,11 @@
 		F8E3338A28FDEBC00054A960 /* Hermeias */ = {
 			isa = PBXGroup;
 			children = (
+				F8603FEE290212E000949266 /* Model */,
+				F8603FEB29020DF700949266 /* Managers */,
 				F899CEA028FDEE960058EEB2 /* DestinationMenuPage */,
 				F899CE9F28FDEE8A0058EEB2 /* MapPage */,
+				F8603FE7290209BF00949266 /* Main.storyboard */,
 				F8E3338B28FDEBC00054A960 /* HermeiasApp.swift */,
 				F8E3338D28FDEBC00054A960 /* ContentView.swift */,
 				F8E3338F28FDEBC10054A960 /* Assets.xcassets */,
@@ -238,9 +263,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8603FE9290209BF00949266 /* ViewController.swift in Sources */,
+				F816CFB6290347EF00F17CAA /* PlaceInputView.swift in Sources */,
 				F8E3338E28FDEBC00054A960 /* ContentView.swift in Sources */,
 				F8E3338C28FDEBC00054A960 /* HermeiasApp.swift in Sources */,
+				F8603FF0290212ED00949266 /* RouteModel.swift in Sources */,
 				F8603FE8290209BF00949266 /* MapView.swift in Sources */,
+				F81F73642905FBB500BCA6ED /* RouteManager.swift in Sources */,
 				F899CEA228FDEF170058EEB2 /* DestinationMenuPage.swift in Sources */,
 				F899CEA428FDEF300058EEB2 /* MapPage.swift in Sources */,
 			);

@@ -7,4 +7,5 @@ target 'Hermeias' do
 
   # Pods for Hermeias
     pod 'GoogleMaps', '7.1.0'
+    pod 'GooglePlaces', '7.1.0'
 end

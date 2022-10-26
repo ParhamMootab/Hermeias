@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct HermeiasApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(routeManager: RouteManager())
         }
     }
 }

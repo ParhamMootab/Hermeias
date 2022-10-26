@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct DestinationMenuPage: View {
+    @StateObject var mapSearch = MapSearch()
+    @State var isLocationOn = false
     var body: some View {
         VStack {
             
@@ -15,7 +17,10 @@ struct DestinationMenuPage: View {
             ForEach(0..<5){ item in
                 HStack {
                     Image(systemName: "mappin.and.ellipse")
-                    TextField("Address...", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/).cornerRadius(15)
+                    TextField("Address...", text: $mapSearch.searchTerm).cornerRadius(15)
+                    
+                    
+                            
                     
                     Spacer()
                     Button{
@@ -32,6 +37,21 @@ struct DestinationMenuPage: View {
                 .background(Color.green
                 .clipShape(RoundedRectangle(cornerRadius:20)))
                 Spacer().frame(height: 25)
+            }
+            
+            ForEach(mapSearch.locationResults, id: \.self) { location in
+                Button {
+                    isLocationOn.toggle()
+                    print("Location")
+                } label: {
+                    VStack(alignment: .leading) {
+                        Text(location.title)
+                            .foregroundColor(Color.black)
+                        Text(location.subtitle)
+                            .font(.system(.caption))
+                            .foregroundColor(Color.white)
+                    }
+                }
             }
             
             Button {

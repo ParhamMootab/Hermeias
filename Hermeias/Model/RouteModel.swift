@@ -7,6 +7,4 @@
 
 import Foundation
 
-struct Route: Decodable{
-    var routeDict: [String: Array<Int>]
-}
+typealias Route = [String: [Int]]

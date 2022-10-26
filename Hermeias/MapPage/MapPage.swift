@@ -52,7 +52,8 @@ struct MapPage: View {
                         .resizable()
                         .frame(width: 30.0, height: 30.0)
                     Button {
-                        print(routeManager.sendRequest())
+                        routeManager.sendRequest()
+                        print(routeManager.response)
                     } label: {
                         Text("New")
                     }

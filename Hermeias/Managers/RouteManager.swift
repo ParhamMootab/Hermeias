@@ -43,7 +43,7 @@ class RouteManager: ObservableObject {
                         let decodedData = try JSONDecoder().decode(Route.self, from: data)
                         self.response = decodedData
                     }catch let error{
-                        print(error)
+                        print("Error here: ", error)
                     }
                     
                 }
